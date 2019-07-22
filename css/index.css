@@ -71,6 +71,11 @@ p {
     margin: 0 auto;
 }
 
+.container-about {
+    width: 800px;
+    margin: 0 auto;
+}
+
 .header-nav {
     display: flex;
     justify-content: space-between;
@@ -82,10 +87,17 @@ p {
 
 }
 
-
 .header-nav a:link, a:visited, a:hover, a:active {
     text-decoration: none;
     color: black;
+}
+
+.jumbo {
+    margin: 10px 0 20px 0;
+}
+
+.jumbo-about {
+    margin: 10px 0 20px 0;
 }
 
 .top-content {
@@ -200,4 +212,45 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.about {
+    padding: 0 10px 20px 10px;
+    border-bottom: 1px dashed black;
+}
+
+.about-body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-between;
+    padding: 10px 0 10px 0;
+
+}
+
+.about-body div {
+    width: 375px;
+    padding: 0px 10px 0px 0px;
+    border-bottom: 1px dashed black;
+}
+
+.learn-more {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 12px;
+    border: 2px solid black;
+    margin: 5px 0 25px 0;
+    padding: 10px 22px;
+}
+
+.about-boxes h2 {
+    padding-top: 10px;
+}
+
+.about-boxes img {
+    padding-top: 40px;
+}
+
+.about-bottom-content {
+    padding: 25px 10px 25px 15px;
 }
