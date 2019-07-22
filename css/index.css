@@ -87,7 +87,7 @@ p {
 
 }
 
-.header-nav a:link, a:visited, a:hover, a:active {
+.header-nav a {
     text-decoration: none;
     color: black;
 }
