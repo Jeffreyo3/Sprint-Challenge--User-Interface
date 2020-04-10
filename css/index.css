@@ -141,43 +141,43 @@ p {
     justify-content: center;
 }
 
-.boxes .box:nth-of-type(1) {
+.boxes .box:nth-child(1) {
     background-color: teal;
 }
 
-.boxes .box:nth-of-type(2) {
+.boxes .box:nth-child(2) {
     background-color: gold;
 }
 
-.boxes .box:nth-of-type(3) {
+.boxes .box:nth-child(3) {
     background-color: cadetblue;
 }
 
-.boxes .box:nth-of-type(4) {
+.boxes .box:nth-child(4) {
     background-color: coral;
 }
 
-.boxes .box:nth-of-type(5) {
+.boxes .box:nth-child(5) {
     background-color: crimson;
 }
 
-.boxes .box:nth-of-type(6) {
+.boxes .box:nth-child(6) {
     background-color: forestgreen;
 }
 
-.boxes .box:nth-of-type(7) {
+.boxes .box:nth-child(7) {
     background-color: darkorchid;
 }
 
-.boxes .box:nth-of-type(8) {
+.boxes .box:nth-child(8) {
     background-color: hotpink;
 }
 
-.boxes .box:nth-of-type(9) {
+.boxes .box:nth-child(9) {
     background-color: indigo;
 }
 
-.boxes .box:nth-of-type(10) {
+.boxes .box:nth-child(10) {
     background-color: dodgerblue;
 }
 
@@ -253,4 +253,9 @@ footer nav a {
 
 .about-bottom-content {
     padding: 25px 10px 25px 15px;
+}
+
+
+@media (max-width: 500px) {
+    
 }
